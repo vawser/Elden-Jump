@@ -1,0 +1,36 @@
+Level Design:
+	1 - Farum Azula
+	2 - Nokron
+		- Introduces ranged enemies (knockback)
+		- Introduces double-jump only traversals
+	3 - Haligtree
+		- Introduces melee enemies (knockback)
+		- Introduces triple-jump only traversals
+		- Maybe: add platform-style puzzle boss as finale
+	
+Rewards:
+	1 - Double Jump
+	2 - Air Dash (used via 'weapon')
+	
+Flow:
+	Failing/Death returns you to checkpoint
+	Each level has 3 checkpoints;
+		- Start
+		- 1st Third
+		- 2nd Third
+		
+# Armor
+Ruffian Set: initial armor set
+ - 1400000
+        
+Red Cloak: boost movement speed by 25%.
+ - 2000100 
+ - SpEffect: 7001000
+ 
+Spring-heel Boots: boosts jump height by 50%.
+ - 301300
+ - SpEffect: 7001010
+ 
+# Jump Count
+Start to Checkpoint 1:
+21 (* 5 secs) = 105 secs
